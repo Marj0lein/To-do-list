@@ -14,7 +14,7 @@ function createListElement() {
 
 		// creates delete button, and refers to function removeParent:
 		var btnDelete = document.createElement("button");
-		btnDelete.appendChild(document.createTextNode(" Verwijderen? "));
+		btnDelete.appendChild(document.createTextNode(" X "));
 		li.appendChild(btnDelete);
 		btnDelete.onclick = removeParent;
 }
